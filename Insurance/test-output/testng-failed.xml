@@ -3,11 +3,11 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.atmecs.insurance.test.InsurancePolicy">
+      <class name="com.atmecs.test.test">
         <methods>
-          <include name="SelectOption"/>
+          <include name="testDate"/>
         </methods>
-      </class> <!-- com.atmecs.insurance.test.InsurancePolicy -->
+      </class> <!-- com.atmecs.test.test -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
